@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/p5": "^1.7.6"
+  },
+  "name": "playground",
+  "version": "1.0.0",
+  "scripts": {
+    "build:debug": "webpack --mode=development",
+    "build:production": "webpack --mode=production"
+  },
+  "dependencies": {
+    "p5": "^1.9.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "keywords": [],
+  "author": "Bram",
+  "license": "MIT",
+  "description": "A showcase implementation of p5.js in Blazor using TypeScript."
+}

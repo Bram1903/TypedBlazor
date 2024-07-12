@@ -1,0 +1,25 @@
+﻿{
+    "compilerOptions": {
+        "target": "es2022", // Specifies the ECMAScript target version to be ES2022.
+        "module": "es2022", // Specifies the module code generation to be ES2022.
+        "lib": ["es2022", "DOM"], // Specifies the libraries to be included during compilation, including ES2022 features and DOM APIs.
+        "sourceMap": true, // Generates corresponding '.map' files for easier debugging.
+        "strict": true, // Enables all strict type-checking options.
+        "esModuleInterop": true, // Ensures proper handling of CommonJS and ES Module interoperability.
+        "skipLibCheck": true, // Skips type checking of all declaration files (.d.ts).
+        "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names.
+        "outDir": "./wwwroot/js", // Redirects output structure to the specified directory.
+        "moduleResolution": "node", // Improves module resolution strategy to Node's module resolution algorithm.
+        "resolveJsonModule": true, // Allows importing JSON files as modules.
+        "noImplicitAny": true, // Ensures explicit typing of 'any' types.
+        "strictNullChecks": true, // Ensures stricter null checks by making 'null' and 'undefined' distinct types.
+        "strictFunctionTypes": true, // Ensures stricter checking of function types.
+        "strictPropertyInitialization": true, // Ensures properties on a class are initialized properly.
+        "noImplicitThis": true, // Ensures 'this' is used correctly in functions.
+        "noUnusedLocals": true, // Warns when local variables are declared but not used.
+        "noUnusedParameters": true, // Warns when function parameters are declared but not used.
+        "noImplicitReturns": true, // Ensures all code paths in functions return a value.
+        "noFallthroughCasesInSwitch": true // Ensures there are no fallthrough cases in switch statements.
+    },
+    "include": ["wwwroot/src/**/*"] // Specifies the files to be included in the compilation.
+}
